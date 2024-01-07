@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# nextjs-devcontainer-template
 
-## Getting Started
+This template provides an example for setting up a development environment for Next.js applications using Dev Containers. 
+To set up the container, please follow the instructions below:
 
-First, run the development server:
+## Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ensure that you have the following installed on your machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [VS Code](https://code.visualstudio.com/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VS Code
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Setup Instructions
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Create a New Repository:
 
-## Learn More
+    - Navigate to the [original repository page](https://github.com/matsu3m/nextjs-devcontainer-template) on GitHub.
+    - Click on `Use this template` to create a new repository based on this template.
 
-To learn more about Next.js, take a look at the following resources:
+2. Clone the Project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    - Clone the newly created repository to your local machine.
+    - Open the cloned project in VS Code.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Reopen in Container:
 
-## Deploy on Vercel
+    - Open the Command Palette in VS Code.
+    - Select `Dev Containers: Reopen in Container`. VS Code will then start building the container and open the project inside it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Start the Dev Server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    - Once the container is running, open the terminal in VS Code.
+    - Run the command `npm run dev` to start the dev server.
+    - Access your application by navigating to http://localhost:3000 in your local web browser.
