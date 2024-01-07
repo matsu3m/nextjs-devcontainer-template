@@ -1,5 +1,5 @@
 {
-  "name": "Nextjs Dev Container",
+  "name": "Next.js Dev Container",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
   "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
   "mounts": ["source=node_modules_${devcontainerId},target=${containerWorkspaceFolder}/node_modules,type=volume"],
